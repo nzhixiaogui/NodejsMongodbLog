@@ -8,8 +8,8 @@ const schema={
     health:String,
     hobby:String
 }
-const mydata = mongoose.model('cat2s', schema);
-const kitty = new mydata({ name: 'testZildjian2' });
+const mydata = mongoose.model('cat1s', schema);
+const kitty = new mydata({ name: 'testZildjian3' });
 kitty.save()
 
 app.use('/',express.static('public'))
